@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>JavaScript Tip Calculator</title>
+  </head>
+  <body>
+    
+      <h1 class="text-center m-3" style="margin-top: 5rem !important;">Tip Calculator Js</h1>
+       <div class="tip-calculator">
+        <div> 
+            <div class="input-group w-50 mb-3">
+                <input type="text" class="form-control" placeholder="Bill Amount" aria-label="Username" aria-describedby="basic-addon1" id="billamount">
+            </div>
+
+            <div class="input-group w-50 mb-3">
+                <select class="form-select" aria-label="Default select example" id="service">
+                    <option selected>How was the service</option>
+                    <option value="0.3">30% OutStanding</option>
+                    <option value="0.2">20% Good</option>
+                    <option value="0.15">15% It was Ok</option>
+                    <option value="0.1">10% Bad</option>
+                    <option value="0.05">5% Terrible</option>
+                  </select>
+
+                  
+            </div>
+
+            <div class="input-group w-50 mb-3">
+                <input type="text" class="form-control" placeholder="How many people are sharing" aria-label="Username" id="people" aria-describedby="basic-addon1">
+                
+            </div>
+
+            <button id="tipcalculate" class="btn btn-success">Calculate tip</button>
+        </div>
+
+            <div class="tip-calculator-value">
+                <div class="my-3">
+                    <h2>Tip:</h2>
+                    <h2 id="tip-value"></h2>
+                </div>
+                
+                <div class="my-3 ">
+                    <h2>Total Bill:</h2>
+                    <h2 id="total-value"></h2>
+                </div>
+                <span id="tipeach"></span>
+            </div>
+
+        </div>  
+
+          <script src="index.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+ 
+    </body>
+</html>

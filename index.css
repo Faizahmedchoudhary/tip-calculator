@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+input:focus{
+    outline: none !important;
+}
+
+.tip-calculator{
+    margin: 10rem ;
+    width: 80vw;
+    height: 30vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 100px;
+}
+
+.my-3 {
+    display: flex;
+    align-items: center !important;
+}
